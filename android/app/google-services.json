@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "794308607821",
+    "firebase_url": "https://georgenabil-4954e-default-rtdb.firebaseio.com",
+    "project_id": "georgenabil-4954e",
+    "storage_bucket": "georgenabil-4954e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794308607821:android:ec61de7632e21d44610104",
+        "android_client_info": {
+          "package_name": "com.example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD0Hg6qYIP3BUjIAY_fKLZaJ6-5J_zLu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794308607821:android:ce037591cd9abcf1610104",
+        "android_client_info": {
+          "package_name": "com.example.georgenabil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD0Hg6qYIP3BUjIAY_fKLZaJ6-5J_zLu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
