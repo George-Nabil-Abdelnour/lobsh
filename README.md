@@ -36,5 +36,4 @@ If there are any changes to this policy, they will be updated in the app.
 
 For any questions, contact us at [george.n.abdelnour@gmail.com].
 
-لأي استفسارات، يمكنك التواصل معنا عبر البريد الإلكتروني: [george.n
-abdelnour@gmail.com]
+لأي استفسارات، يمكنك التواصل معنا عبر البريد الإلكتروني: [george.n.abdelnour@gmail.com]
