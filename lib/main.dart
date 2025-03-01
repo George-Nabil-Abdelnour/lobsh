@@ -39,6 +39,8 @@ class MyApp extends StatelessWidget {
 }
 
 class SiteCrudPage extends StatefulWidget {
+  const SiteCrudPage({super.key});
+
   @override
   _SiteCrudPageState createState() => _SiteCrudPageState();
 }
@@ -55,7 +57,7 @@ class _SiteCrudPageState extends State<SiteCrudPage> {
   final TextEditingController passwordController = TextEditingController();
 
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-  String _searchQuery = '';
+  final String _searchQuery = '';
   // Fetch data from Firestore
   Stream<QuerySnapshot> _fetchSites() {
     return _firestore.collection('sites').snapshots();
@@ -81,7 +83,8 @@ class _SiteCrudPageState extends State<SiteCrudPage> {
 
     // Set headers in the Excel sheet
     sheetObject.appendRow(
-        ['Site Name', 'Site URL', 'Username', 'Email', 'Phone', 'Password'],);
+      ['Site Name', 'Site URL', 'Username', 'Email', 'Phone', 'Password'],
+    );
 
     // Fetch data from Firestore
     var snapshot = await FirebaseFirestore.instance.collection('sites').get();
@@ -97,7 +100,6 @@ class _SiteCrudPageState extends State<SiteCrudPage> {
         data['email'],
         data['phone'],
         data['password'],
-        
       ]);
     }
 
